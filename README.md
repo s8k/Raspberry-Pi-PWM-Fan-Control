@@ -10,6 +10,6 @@ English: [Using-Raspberry-Pi-to-Control-a-PWM-Fan-and-Monitor-its-Speed](https:/
 
 # The differences of this fork
 
-* Linear fan speed control function changed to exponential
-* Fewer probings when temperature goes down (WAIT_TIME_TEMP_DOWN and WAIT_TIME_TEMP_UP)
-* Separate parameters for minimum temperature to turn the fan on (MIN_TEMP_ON) and to turn off (MIN_TEMP_OFF)
+* The linear fan speed control function changed to the exponential one
+* The script does fewer iterations when the temperature gradually goes down (WAIT_TIME_TEMP_DOWN and WAIT_TIME_TEMP_UP)
+* Introducing the separate parameters for the minimum temperature to turn the fan on (MIN_TEMP_ON) and to turn it off (MIN_TEMP_OFF)
