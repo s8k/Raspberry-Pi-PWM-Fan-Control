@@ -8,7 +8,7 @@ English: [Using-Raspberry-Pi-to-Control-a-PWM-Fan-and-Monitor-its-Speed](https:/
 
 中文：[利用 Raspberry Pi 控制 PWM 風扇及轉速偵測](https://blog.driftking.tw/2019/11/Using-Raspberry-Pi-to-Control-a-PWM-Fan-and-Monitor-its-Speed/)
 
-# Difference from the original branch
+# The differences of this fork
 
 * Linear fan speed control function changed to exponential
 * Fewer probings when temperature goes down (WAIT_TIME_TEMP_DOWN and WAIT_TIME_TEMP_UP)
